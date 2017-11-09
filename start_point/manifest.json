@@ -13,7 +13,7 @@
 
   "image_name": "cyberdojofoundation/gpp_catch",
 
-  "filename_extension" : ".cpp",
+  "runner_choice": "stateful",
 
-  "runner_choice": "stateful"
+  "filename_extension" : ".cpp"
 }
