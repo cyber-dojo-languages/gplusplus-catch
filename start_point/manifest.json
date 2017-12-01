@@ -15,7 +15,7 @@
 
   "runner_choice": "stateful",
 
-  "max_seconds": 15,
+  "max_seconds": 20,
 
   "filename_extension" : ".cpp"
 }
