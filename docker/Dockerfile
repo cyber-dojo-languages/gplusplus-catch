@@ -8,5 +8,4 @@ RUN cd /usr/include/ \
        --remote-name         `# -O Write output to a file named as the remote file` \
          https://raw.githubusercontent.com/catchorg/Catch2/master/single_include/catch.hpp
 
-
 COPY red_amber_green.rb /usr/local/bin
