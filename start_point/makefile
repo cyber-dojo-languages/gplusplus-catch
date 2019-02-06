@@ -1,4 +1,4 @@
-CXXFLAGS += -I. -std=c++17 -Wall -Wextra -Werror
+CXXFLAGS += -I. -std=c++17 -Wall -Wextra
 
 HPP_FILES = $(wildcard *.hpp)
 COMPILED_HPP_FILES = $(patsubst %.hpp,%.compiled_hpp,$(HPP_FILES))
