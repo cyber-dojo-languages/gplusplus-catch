@@ -13,8 +13,6 @@
 
   "image_name": "cyberdojofoundation/gpp_catch",
 
-  "runner_choice": "stateful",
-
   "max_seconds": 20,
 
   "filename_extension": [ ".cpp", ".hpp" ]
