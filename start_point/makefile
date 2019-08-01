@@ -15,10 +15,6 @@ test.output: test makefile
 test: makefile $(OBJ_FILES) $(COMPILED_HPP_FILES)
 	@$(CXX) $(CXXFLAGS) -O $(OBJ_FILES) -o $@
 
-# don't compile catch.hpp header
-catch.compiled_hpp: catch.hpp
-	@true
-
 # This rule ensures header files build in their own right.
 # The quality of header files is important because header files
 # are #included from other files and thus have a large span

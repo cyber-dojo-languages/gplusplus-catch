@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/gplusplus
+FROM cyberdojofoundation/gplusplus
 LABEL maintainer=jon@jaggersoft.com
 
 RUN mkdir /usr/include/catch2 \
