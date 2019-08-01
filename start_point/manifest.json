@@ -3,7 +3,6 @@
   "display_name": "C++ (g++), Catch",
 
   "visible_filenames": [
-    "main.catch.cpp",
     "hiker.tests.cpp",
     "hiker.cpp",
     "hiker.hpp",
