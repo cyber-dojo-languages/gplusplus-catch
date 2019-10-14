@@ -12,7 +12,6 @@
 
   "image_name": "cyberdojofoundation/gpp_catch",
 
-  "max_seconds": 20,
+  "max_seconds": 10,
 
-  "filename_extension": [ ".cpp", ".hpp" ]
-}
+  "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ]
