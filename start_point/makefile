@@ -1,4 +1,7 @@
-CXXFLAGS += -I. -std=c++17 -Wall -Wextra
+CXXFLAGS += -I.
+CXXFLAGS += -std=c++2a 
+CXXFLAGS += -Wall -Wextra
+CXXFLAGS += -fprofile-arcs -ftest-coverage
 
 HPP_FILES = $(wildcard *.hpp)
 COMPILED_HPP_FILES = $(patsubst %.hpp,%.compiled_hpp,$(HPP_FILES))
@@ -12,7 +15,7 @@ OBJ_FILES = $(patsubst %.cpp,%.o,$(CPP_FILES)) /usr/lib/catch_main.o
 test.output: test makefile
 	@./$<
 
-test: makefile $(OBJ_FILES) $(COMPILED_HPP_FILES)
+test: $(OBJ_FILES) $(COMPILED_HPP_FILES)
 	@$(CXX) $(CXXFLAGS) -O $(OBJ_FILES) -o $@
 
 # This rule ensures header files build in their own right.
