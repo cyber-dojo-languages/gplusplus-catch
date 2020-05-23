@@ -1,4 +1,3 @@
-
 {
   "image_name": "cyberdojofoundation/gpp_catch",
   "display_name": "C++ (g++), Catch",
@@ -12,6 +11,5 @@
   ],
   "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ],
   "max_seconds": 10,
-  "tab_size": 4,
-  "hidden_filenames": [ ".*\\.gcov", ".*\\.gcno" ]
+  "tab_size": 4
 }
